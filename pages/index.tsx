@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       {/* Logo SVG blanco */}
-      <Logo className="w-100 mb-12 text-white fill-white" />
+      <Logo className="w-80 mb-12 text-white fill-white" />
 
       {/* Enlaces */}
       <div className="flex flex-col gap-4 w-full max-w-sm mt-4">
