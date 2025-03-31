@@ -4,9 +4,13 @@ import Logo from '../components/Logo_Lot9.svg'
 export default function Home() {
   return (
     <div
-      className="min-h-screen flex flex-col items-center justify-center bg-cover bg-center px-4"
-      style={{ backgroundImage: "url('/fondo web.jpg')" }}
-    >
+  className={`
+    min-h-screen flex flex-col items-center justify-center
+    bg-cover bg-center px-4
+    bg-[url('/fondo-movil.jpg')]
+    md:bg-[url('/fondo-web.jpg')]
+  `}
+>
       <Head>
         <title>Lot9 Enlaces</title>
         <meta name="description" content="Todos los enlaces de Lot9 en un solo lugar" />
@@ -48,7 +52,7 @@ export default function Home() {
         <a
           href="https://www.tiktok.com/@lot9studio?is_from_webapp=1&sender_device=pc"
           target="_blank"
-          className="flex items-center justify-center gap-2 bg-[#4C4C4C] text-white font-semibold py-4 px-6 rounded-2xl text-center transition transform hover:scale-200S"
+          className="flex items-center justify-center gap-2 bg-[#4C4C4C] text-white font-semibold py-4 px-6 rounded-2xl text-center transition transform hover:scale-105"
         >
           🎵 TikTok 🎵
         </a>

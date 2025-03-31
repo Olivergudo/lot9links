@@ -1,0 +1,29 @@
+// pages/index.tsx
+import Head from 'next/head';
+
+export default function Home() {
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white px-4">
+      <Head>
+        <title>Lot9 Enlaces</title>
+        <meta name="description" content="Todos los enlaces de Lot9 en un solo lugar" />
+      </Head>
+
+      <h1 className="text-4xl font-bold mb-6 tracking-widest">LOT9</h1>
+
+      <div className="flex flex-col gap-4 w-full max-w-sm">
+        <a href="https://lot9.com" target="_blank" className="link-button">🛒 Tienda Online</a>
+        <a href="https://wa.me/5210000000000" target="_blank" className="link-button">💬 WhatsApp</a>
+        <a href="https://lot9.com/catalogo" target="_blank" className="link-button">📖 Catálogo</a>
+        <a href="https://instagram.com/lot9" target="_blank" className="link-button">📸 Instagram</a>
+        <a href="https://tiktok.com/@lot9" target="_blank" className="link-button">🎵 TikTok</a>
+      </div>
+
+      <style jsx>{`
+        .link-button {
+          @apply bg-white text-black font-semibold py-3 px-6 rounded-2xl text-center transition transform hover:scale-105 hover:bg-gray-200;
+        }
+      `}</style>
+    </div>
+  );
+}
