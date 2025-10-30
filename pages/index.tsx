@@ -6,9 +6,9 @@ export default function Home() {
     <div
   className={`
     min-h-screen flex flex-col items-center justify-center
-    bg-cover bg-center px-4
-    bg-[url('/Negro_fondo_pantalla_web.jpg')]
-    md:bg-[url('/foto_fondo_pantalla_cel.jpg')]
+    bg-cover bg-center px-6
+    bg-[url('/foto_fondo_pantalla_cel.jpg')]
+    md:bg-[url('/Negro_fondo_pantalla_web.jpg')]
   `}
 >
       <Head>
