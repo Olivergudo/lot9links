@@ -7,8 +7,8 @@ export default function Home() {
   className={`
     min-h-screen flex flex-col items-center justify-center
     bg-cover bg-center px-4
-    bg-[url('/fondo-movil.jpg')]
-    md:bg-[url('/fondo-web.jpg')]
+    bg-[url('/Negro_fondo_pantalla_web.jpg')]
+    md:bg-[url('/Negro_fondo_pantalla_web.jpg')]
   `}
 >
       <Head>
@@ -24,37 +24,37 @@ export default function Home() {
         <a
           href="https://lot-9-studio.vercel.app/"
           target="_blank"
-          className="flex items-center justify-center gap-2 bg-[#4C4C4C] text-white font-semibold py-4 px-6 rounded-2xl text-center transition transform hover:scale-105"
+          className="flex items-center justify-center gap-2 bg-black text-white font-semibold py-4 px-6 rounded-2xl text-center transition transform hover:scale-105"
         >
-          🛒 Tienda Online
+           Tienda Online
         </a>
         <a
           href="http://wa.me/523318592665"
           target="_blank"
-          className="flex items-center justify-center gap-2 bg-[#4C4C4C] text-white font-semibold py-4 px-6 rounded-2xl text-center transition transform hover:scale-105"
+          className="flex items-center justify-center gap-2 bg-black text-white font-semibold py-4 px-6 rounded-2xl text-center transition transform hover:scale-105"
         >
-          💬 WhatsApp
+           WhatsApp
         </a>
         <a
           href="https://drive.google.com/file/d/1LslybNDnvrQ6cpksdrBwajmWBjy81Ri0/view?usp=drive_link"
           target="_blank"
-          className="flex items-center justify-center gap-2 bg-[#4C4C4C] text-white font-semibold py-4 px-6 rounded-2xl text-center transition transform hover:scale-105"
+          className="flex items-center justify-center gap-2 bg-black text-white font-semibold py-4 px-6 rounded-2xl text-center transition transform hover:scale-105"
         >
-          📖 Catálogo
+           Catálogo 
         </a>
         <a
           href="https://www.instagram.com/lot9studio/"
           target="_blank"
-          className="flex items-center justify-center gap-2 bg-[#4C4C4C] text-white font-semibold py-4 px-6 rounded-2xl text-center transition transform hover:scale-105"
+          className="flex items-center justify-center gap-2 bg-black text-white font-semibold py-4 px-6 rounded-2xl text-center transition transform hover:scale-105"
         >
-          📸 Instagram
+           Instagram 
         </a>
         <a
           href="https://www.tiktok.com/@lot9studio?is_from_webapp=1&sender_device=pc"
           target="_blank"
-          className="flex items-center justify-center gap-2 bg-[#4C4C4C] text-white font-semibold py-4 px-6 rounded-2xl text-center transition transform hover:scale-105"
+          className="flex items-center justify-center gap-2 bg-black text-white font-semibold py-4 px-6 rounded-2xl text-center transition transform hover:scale-105"
         >
-          🎵 TikTok 🎵
+           TikTok 
         </a>
       </div>
     </div>
