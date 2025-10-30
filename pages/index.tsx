@@ -8,7 +8,7 @@ export default function Home() {
     min-h-screen flex flex-col items-center justify-center
     bg-cover bg-center px-4
     bg-[url('/Negro_fondo_pantalla_web.jpg')]
-    md:bg-[url('/Negro_fondo_pantalla_web.jpg')]
+    md:bg-[url('/foto_fondo_pantalla_cel.jpg')]
   `}
 >
       <Head>
